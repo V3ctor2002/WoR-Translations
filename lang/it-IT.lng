@@ -62,36 +62,36 @@ MessageBox.TaskOngoing.Message=Un'operazione è attualmente in corso.
 [WelcomePage]
 PageTitle=Benvenuto
 WelcomeLabel=Benvenuto su {appname}!
-WelcomeMsgTextBox=This wizard will help you easily install the full desktop version of Windows 10 on your Raspberry Pi computer.{n}{n}Click on the {0} button to continue.
+WelcomeMsgTextBox=Questa procedura guidata ti aiuterà a installare facilmente la versione desktop completa di Windows 10 sul tuo Raspberry Pi.{n}{n}Click su {0} per continuare.
 SelectLangLabel=Seleziona la tua lingua:
 
 [SelectDevicePage]
 PageTitle=Seleziona il dispositivo
 SelectDeviceLabel=Seleziona il dispositivo
-DisksListCombo.TextEmptyList=No drives have been found. Click on the {0} button to reload the list.
+DisksListCombo.TextEmptyList=Nessun disco trovato. Click su {0} fer aggiornare la lista.
 DisksListCombo.TextNoItemSelected=Click here to select a drive from the list.
-StorageDriveWarningLabel=Warning! Selecting the wrong drive may lead to unwanted data loss.
+StorageDriveWarningLabel=Attenzione! Scegliere correttamente il dispositivo per non perdere dati importanti.
 Device.ExperimentalSupport=Sperimentale
 Device.SupportedModels=Modelli supportati: {0}
 MessageBox.DiskAtLeast=Il dispositivo deve avere almeno {0} GB di spazio libero!
 MessageBox.DiskCompressedInstall.Heading=Il disco selezionato ha abbastanza spazio per un'installazione compressa.
-MessageBox.DiskCompressedInstall.Message=System performance may be slightly reduced due to compression.
+MessageBox.DiskCompressedInstall.Message=Le prestazioni del PC potrebbero diminuire durante la fase di compressione.
 Message.LoadingDisks=Caricamento driver...
-MessageBox.NewBootloaderRequiredWarn=If you want to boot your {0} from an USB drive or use the GPT partitioning scheme, the bootloader must be updated to the latest version.{n}{n}Please visit the following link for more details: {1}
+MessageBox.NewBootloaderRequiredWarn=Se vuoi eseguire il boot {0} da una chiavetta USB o usare il filesystem GPT , Devi avere il bootloader all'ultima versione.{n}{n}Guarda per maggiori informazioni: {1}
 
 [SelectImagePage]
 PageTitle=Seleziona immagine
 SelectImageLabel=Seleziona immagine Windows su ARM
-ImageFileLabel=Image file
+ImageFileLabel=Immagine OS
 WindowsEditionLabel=Edizione Windows
-WorkingBuildsTextBox.MinBuild=Your device supports Windows 10 {0} build {1} or newer.
-WorkingBuildsTextBox.AllBuilds=Your device supports all the available builds of Windows 10 {0}.
-WorkingBuildsTextBox.GetImage=If you don't have an image yet, you can find details on how to download one on the project website.
-SelectImageIndexCombo.TextEmptyList=Please select an image first.
+WorkingBuildsTextBox.MinBuild=Il tuo dispositivo supporta Windows 10 {0} build {1} o piu recenti.
+WorkingBuildsTextBox.AllBuilds=Il tuo dispositivo supporta tutte le build di Windows 10 {0}.
+WorkingBuildsTextBox.GetImage=Per scaricare l'immagine di Windows visita il sito https://www.worproject.ml/downloads.
+SelectImageIndexCombo.TextEmptyList=Seleziona un immagine di disco.
 MessageBox.SelectedImageInvalid=L'immagine selezionata non è un immagine Windows valida.
 MessageBox.SelectedImageUnsupported=L'immagine selezionata non è supportata.
-MessageBox.SelectedImageErrorInfo.AllBuilds=Please select a compatible Windows 10 {0} image.
-MessageBox.SelectedImageErrorInfo.MinBuild=Please select a compatible Windows 10 {0} build {1} or newer image.
+MessageBox.SelectedImageErrorInfo.AllBuilds=Selezione un immagine compatibile di Windows 10 {0}.
+MessageBox.SelectedImageErrorInfo.MinBuild=Seleziona un immagine compatibile di Windows 10 {0} build {1} o piu recente.
 MessageBox.NotEnoughSpace.Heading=Non c'è abbastanza spazio sul disco per installare questa immagine!
 MessageBox.NotEnoughSpace.Message=Per favore seleziona un dispositivo di archiviazione più capiente oppure un'immagine compatta.
 Message.MountingISO=Montaggio immagine ISO...
@@ -105,7 +105,7 @@ DriversNoteTextBox=Nota: i driver devono essere compressi dentro un file {0}.
 LocalDrvPkgRadioBtn=Usa un pacchetto scaricato sul tuo computer
 ServerDrvPkgRadioBtn=Usa il pacchetto più recente
 MessageBox.LicenseNotAccepted.Heading=Non hai accettato uno degli accordi di licenza.
-MessageBox.LicenseNotAccepted.Message=All licenses must be accepted to use this drivers package.
+MessageBox.LicenseNotAccepted.Message=Devi accettare tutti i termini per usare questi driver.
 
 [SelectUEFIPage]
 PageTitle=Firmware UEFI
@@ -131,7 +131,7 @@ MemoryLimitLabel=Limite memoria:
 RecoveryEnabledCheck=Abilita Windows Recovery Environment
 WoROptionsGroup=Opzioni di {appname}
 SaveConfigOnExitCheck=Salva questa configurazione all'uscita
-SaveConfigOnExitCheckInfoLabel=Note: options that are disabled (and those in the {0} menu) will not be saved.
+SaveConfigOnExitCheckInfoLabel=Note: Opzioni Disabilitate (and those in the {0} menu) Non saranno salvate.
 
 [SetupOverviewPage]
 PageTitle=Installa
