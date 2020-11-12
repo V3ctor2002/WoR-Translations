@@ -31,24 +31,24 @@ MessageBox.SelectedPackageInvalid.Heading=Il pacchetto selezionato è invalido o
 MessageBox.SelectedPackageInvalid.Message=Please select a package built for {0}.
 Message.ExtractingPackageToTemp=Estrazione dell'archivio sulla cartella temporanea...
 Message.DownloadingReqFiles=Scaricamento dei file necessari...
-Label.StorageDrive=Storage drive
+Label.StorageDrive=Memoria
 Label.DeviceType=Tipo dispositivo
-FilePathTextPlaceholder=Click on the "{0}" button or drag and drop the file here.
-ServerPackageInfoLabel=This is the recommended option. It can be used offline too, as long as the package has been previously downloaded.
+FilePathTextPlaceholder=premi sul bottone "{0}" o trascina i file qui.
+ServerPackageInfoLabel=Questa è un impostazione raccomandata.
 
 [MessageBox]
 Button.OK=OK
-Button.Cancel=Cancel
-Button.Abort=Abort
-Button.Retry=Retry
-Button.Ignore=Ignore
-Button.Yes=Yes
+Button.Cancel=Cancella
+Button.Abort=Annulla
+Button.Retry=Riprova
+Button.Ignore=Ignora
+Button.Yes=Si
 Button.No=No
-CheckBox.DoNotShowAgain=Don't show this again
+CheckBox.DoNotShowAgain=Non mostrare di nuovo
 
 [MessageBox.Common]
-Heading.SomethingWentWrong=Something went wrong...
-Heading.Warning=Warning!
+Heading.SomethingWentWrong=Qualcosa è andato storto
+Heading.Warning=Attenzione!!!
 
 [MainWindow]
 SendFeedbackBtn=Invia un feedback
@@ -62,7 +62,7 @@ MessageBox.TaskOngoing.Message=Un'operazione è attualmente in corso.
 [WelcomePage]
 PageTitle=Benvenuto
 WelcomeLabel=Benvenuto su {appname}!
-WelcomeMsgTextBox=This wizard will help you easily install the full desktop version of Windows 10 on your Raspberry Pi computer.{n}{n}Click on the {0} button to continue.
+WelcomeMsgTextBox=Questo tool ti aiutera a installare windows 10 su tuo raspberry PI.{n}{n}Premi {0} per continuare.
 SelectLangLabel=Seleziona la tua lingua:
 
 [SelectDevicePage]
